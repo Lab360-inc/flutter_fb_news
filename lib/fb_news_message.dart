@@ -27,7 +27,7 @@ class FbNewsMessage extends StatelessWidget {
   Widget build(BuildContext context) {
     return jsonEncode(feed).contains("message")
         ? Container(
-            padding: EdgeInsets.fromLTRB(10, 0, 10, 10),
+            padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
             child: Linkify(
               onOpen: (link) {
                 launch(
