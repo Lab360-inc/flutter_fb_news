@@ -119,6 +119,9 @@ class _FbNewsState extends State<FbNews> {
                                       .toString(),
                                   config: widget.config,
                                 );
+                              }
+                    },
+                  );
         }
       },
     );
