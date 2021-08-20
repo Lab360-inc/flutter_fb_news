@@ -111,8 +111,7 @@ class _FbNewsState extends State<FbNews> {
                                       ],
                                     ),
                                   )
-                              : 
-FbNewsFeed(
+                              : FbNewsFeed(
                                   feedResponse: snapshot2.data!.body,
                                   profilePictureUrl: jsonDecode(
                                               snapshot1.data!.body)["picture"]
