@@ -112,7 +112,8 @@ class _FbNewsState extends State<FbNews> {
                                     ),
                                   )
                               : 
-CarouselSlider( items:  snapshot2.data!.body,
+CarouselSlider( items:  jsonDecode(
+                                              snapshot1.data!.body),
                                                            options: CarouselOptions(
       height: 400,
       aspectRatio: 16/9,
