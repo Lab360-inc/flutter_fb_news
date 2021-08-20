@@ -5,7 +5,7 @@ import 'dart:convert';
 
 // Flutter imports:
 import 'package:flutter/material.dart';
-
+import 'package:carousel_slider/carousel_slider.dart';
 // Package imports:
 import 'package:http/http.dart' as http;
 
